@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
-const Game = require('./lib/InitProgram');
+const InitProgram = require('./lib/InitProgram');
 
-new Game().initializeGame();
+
+new InitProgram().getStart();
