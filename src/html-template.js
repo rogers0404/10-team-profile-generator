@@ -1,7 +1,9 @@
 
-module.exports = templateData => {
+
+
+module.exports = templateHTML => {
     // destructure page data by section
-    const { projects, about, ...header } = templateData;
+    const { projects, about, ...header } = templateHTML;
   
     return `
     <!DOCTYPE html>
