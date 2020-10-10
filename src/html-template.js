@@ -1,8 +1,6 @@
 
 const addTeam = team => {
-    return `
-            <div class="col mb-4" >
-                <div class="card" >                    
+    return `           
                     ${team.map(employee => {
                         if(employee.getRole()==='Engineer')
                             return `
@@ -19,7 +17,7 @@ const addTeam = team => {
                                     </div>                        
                                     <ul class="list-group list-group-flush text text-light">
                                         <li class="list-group-item bg-secondary">ID: ${employee.getId()}</li>
-                                        <li class="list-group-item bg-secondary">Email: <a class="text-decoration-none" href="mailto${employee.getEmail()}">${employee.getEmail()}</a></li>
+                                        <li class="list-group-item bg-secondary">Email: <a class="text-decoration-none" href="mailto: ${employee.getEmail()}">${employee.getEmail()}</a></li>
                                         <li class="list-group-item bg-secondary">GitHub User: <a class="text-decoration-none" href="https://github.com/${employee.getGithub()}/" target="_blank">${employee.getGithub()}</a></li>
                                     </ul>
                                 </div>
@@ -42,7 +40,7 @@ const addTeam = team => {
                                     </div>                        
                                     <ul class="list-group list-group-flush text text-light">
                                         <li class="list-group-item bg-secondary">ID: ${employee.getId()}</li>
-                                        <li class="list-group-item bg-secondary">Email: <a class="text-decoration-none" href="mailto${employee.getEmail()}">${employee.getEmail()}</a></li>
+                                        <li class="list-group-item bg-secondary">Email: <a class="text-decoration-none" href="mailto: ${employee.getEmail()}">${employee.getEmail()}</a></li>
                                         <li class="list-group-item bg-secondary">School: ${employee.getSchool()}</li>
                                     </ul>
                                 </div>
@@ -89,7 +87,7 @@ module.exports = (manager, team) => {
                     </div>                        
                     <ul class="list-group list-group-flush text text-light">
                         <li class="list-group-item bg-secondary">ID: ${manager.getId()}</li>
-                        <li class="list-group-item bg-secondary">Email: <a class="text-decoration-none" href="mailto${employee.getEmail()}">${employee.getEmail()}</a></li>
+                        <li class="list-group-item bg-secondary">Email: <a class="text-decoration-none" href="mailto: ${manager.getEmail()}">${manager.getEmail()}</a></li>
                         <li class="list-group-item bg-secondary">Office Number: ${manager.getOfficeNumber()}</li>
                     </ul>
                     </div>
