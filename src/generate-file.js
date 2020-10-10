@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-const createFile = fileContent => {
+const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-      fs.createFile('.//README.md', fileContent, err => {
+      fs.writeFile('./dist/index.html', fileContent, err => {
         // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
         if (err) {
           reject(err);
@@ -13,10 +13,10 @@ const createFile = fileContent => {
         // if everything went well, resolve the Promise and send the successful data to the `.then()` method
         resolve({
           ok: true,
-          message: 'READMD.md File created Successfully!'
+          message: 'Index.html File created Successfully!'
         });
       });
     });
   };
 
-  module.exports = { createFile };
+  module.exports = { writeFile };
