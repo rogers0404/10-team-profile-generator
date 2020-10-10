@@ -1,0 +1,28 @@
+{
+  "name": "10-team-profile-generator",
+  "version": "1.0.0",
+  "description": "Assignment 10. OOP ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.5.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogers0404/10-team-profile-generator.git"
+  },
+  "author": "rogers0404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogers0404/10-team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/rogers0404/10-team-profile-generator#readme"
+}
