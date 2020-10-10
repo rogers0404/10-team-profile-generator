@@ -1,9 +1,10 @@
 
 
 
-module.exports = templateHTML => {
+module.exports = (manager, team) => {
     // destructure page data by section
-    const { projects, about, ...header } = templateHTML;
+    const { name, id, email, officeNumber } = manager;
+    
   
     return `
     <!DOCTYPE html>
