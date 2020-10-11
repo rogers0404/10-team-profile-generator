@@ -55,7 +55,7 @@ You need to follow to instructions. see Section [Screenshots](#screenshots)
 
 ## License
 
-Professional README Generator is licensed under the
+Team Profile Generator is licensed under the
 
 ![v1](https://img.shields.io/static/v1?label=License&message=None&color=inactive&&style=plastic)
 
