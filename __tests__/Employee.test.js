@@ -27,7 +27,7 @@ test('Check getName method', () => {
     expect(employee.getEmail()).toEqual(expect.any(String));
   });
 
-  test('Get the Role in the Manager\'s Team', () => {
+  test('Get the Role in the Employee\'s Team', () => {
     const employee = new Employee('Dave', 1, 'dave@email.com');
   
     expect(employee.getRole()).toBe('Employee');

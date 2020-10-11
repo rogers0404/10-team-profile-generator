@@ -97,8 +97,9 @@ module.exports = (manager, team) => {
         </div>
 
       </main>
+      <!-- Space left in blank--> 
       
-      <footer>
+      <footer class="footer">
         <div class="container bg-warning p-1 m-0 mw-100">
             <h5 class="text-left text-danger w-100 ">
                 &copy; 2020 by 

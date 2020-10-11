@@ -26,6 +26,9 @@ Application developed using ES6 Syntax and Nde.js.
     - [HTTPS: https://github.com/rogers0404/10-team-profile-generator.git](https://github.com/rogers0404/10-team-profile-generator.git)    
     - [GIT: git@github.com:rogers0404/10-team-profile-generator.git](git@github.com:rogers0404/10-team-profile-generator.git)
 
+* Link Video
+    - [Video](https://drive.google.com/file/d/1HqMTZ4fwL7h1bLdVHcnpat2V8hMp9yva/view)
+
 ## Installation
 
 You need some packages to run this application, 
@@ -60,7 +63,7 @@ None
 
 ## Test
 
-node index.js //# press enter
+``npm run test`` //# press enter. Jest Test for all Classes
 
 
 ## Questions
@@ -75,7 +78,7 @@ for more information you can have a question via email [rogers.ramirez2008@gmail
 
 ### Inicial Mock-up 
 
-![](./dist/assets/images/mock-up.png)
+![](./dist/assets/imges/mock-up.png)
 
 ### Screenshot 1
 
@@ -83,4 +86,4 @@ for more information you can have a question via email [rogers.ramirez2008@gmail
 
 ### Screenshot 2
 
-![](./dist/assets/images/image1.png)
+![](./dist/assets/imges/image1.png)

@@ -1,3 +1,9 @@
 body {
     background-color: #e85d04;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

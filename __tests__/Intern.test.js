@@ -29,7 +29,7 @@ test('Check getName method', () => {
     expect(student.getEmail()).toEqual(expect.any(String));
   });
 
-  test('Get the Role in the Manager\'s Team', () => {
+  test('Get the Role in the Intern\'s Team', () => {
     const student = new Intern('Dave', 1, 'dave@email.com', 'UCF');
   
     expect(student.getRole()).toBe('Intern');
