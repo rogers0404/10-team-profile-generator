@@ -5,7 +5,7 @@
 
 An Amazing Node.js command-line application that takes information about employees team for a Department and generates an HTML webpage that displays business information for each person.
 
-Application developed using ES6 Syntax and Nde.js. 
+Application developed using ES6 Syntax and Node.js. 
 
 
 ## Table of Contents
@@ -27,7 +27,7 @@ Application developed using ES6 Syntax and Nde.js.
     - [GIT: git@github.com:rogers0404/10-team-profile-generator.git](git@github.com:rogers0404/10-team-profile-generator.git)
 
 * Link Video
-    - [Video](https://drive.google.com/file/d/1HqMTZ4fwL7h1bLdVHcnpat2V8hMp9yva/view)
+    - [Video: https://drive.google.com/file/d/1HqMTZ4fwL7h1bLdVHcnpat2V8hMp9yva/view](https://drive.google.com/file/d/1HqMTZ4fwL7h1bLdVHcnpat2V8hMp9yva/view)
 
 ## Installation
 
